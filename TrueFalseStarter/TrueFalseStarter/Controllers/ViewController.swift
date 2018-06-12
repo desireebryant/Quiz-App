@@ -5,6 +5,7 @@
 //  Created by Pasan Premaratne on 3/9/16.
 //  Copyright © 2016 Treehouse. All rights reserved.
 //
+// Refactored by Desireé Bryant, Jun 2018
 
 import UIKit
 import GameKit
@@ -25,12 +26,12 @@ class ViewController: UIViewController {
     
     var gameSound: SystemSoundID = 0
     
-    let trivia: [[String : String]] = [
-        ["Question": "Only female koalas can whistle", "Answer": "False"],
-        ["Question": "Blue whales are technically whales", "Answer": "True"],
-        ["Question": "Camels are cannibalistic", "Answer": "False"],
-        ["Question": "All ducks are birds", "Answer": "True"]
-    ]
+//    let trivia: [[String : String]] = [
+//        ["Question": "Only female koalas can whistle", "Answer": "False"],
+//        ["Question": "Blue whales are technically whales", "Answer": "True"],
+//        ["Question": "Camels are cannibalistic", "Answer": "False"],
+//        ["Question": "All ducks are birds", "Answer": "True"]
+//    ]
     
     @IBOutlet weak var questionField: UILabel!
     @IBOutlet weak var trueButton: UIButton!
