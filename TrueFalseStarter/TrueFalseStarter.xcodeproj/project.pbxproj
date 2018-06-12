@@ -37,6 +37,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AD0280420CF6BB90073D805 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97093D3B1C913506001275BC /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AD0280520CF6BD10073D805 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97093D421C913506001275BC /* Assets.xcassets */,
+				7AD0280620CF6BDF0073D805 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7AD0280620CF6BDF0073D805 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				97093D521C932116001275BC /* GameSound.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		7AD0280720CF6BF50073D805 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				97093D3F1C913506001275BC /* Main.storyboard */,
+				97093D441C913506001275BC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7AD0280820CF6C080073D805 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				97093D3D1C913506001275BC /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7AD0280920CF6C130073D805 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AD0280A20CF6C1C0073D805 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		97093D2F1C913506001275BC = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +112,13 @@
 		97093D3A1C913506001275BC /* TrueFalseStarter */ = {
 			isa = PBXGroup;
 			children = (
-				97093D3B1C913506001275BC /* AppDelegate.swift */,
-				97093D3D1C913506001275BC /* ViewController.swift */,
-				97093D3F1C913506001275BC /* Main.storyboard */,
-				97093D421C913506001275BC /* Assets.xcassets */,
-				97093D441C913506001275BC /* LaunchScreen.storyboard */,
+				7AD0280920CF6C130073D805 /* Models */,
+				7AD0280A20CF6C1C0073D805 /* Views */,
+				7AD0280820CF6C080073D805 /* Controllers */,
+				7AD0280720CF6BF50073D805 /* Storyboards */,
+				7AD0280520CF6BD10073D805 /* Resources */,
+				7AD0280420CF6BB90073D805 /* Supporting Files */,
 				97093D471C913506001275BC /* Info.plist */,
-				97093D521C932116001275BC /* GameSound.wav */,
 			);
 			path = TrueFalseStarter;
 			sourceTree = "<group>";
